@@ -1,0 +1,97 @@
+body {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+div {
+	min-height: 50px;
+}
+
+.navBackground {
+	background: rgb(111, 30, 30);
+}
+
+.aFont {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+.aFont:hover {
+	color: lightgray;
+}
+
+h5 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	color: white;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	color: white;
+}
+
+hr {
+	width: 1275px;
+	margin: auto;
+}
+
+.textLine {
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  margin: auto;
+  width: 0%;
+}
+
+.textLine:hover{
+   border-bottom: 2px solid lightgray;
+   width: 100%;
+}
+
+.logo {
+	border-radius: 300px;
+}
+
+.titleMargin {
+	margin-top: 50px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: rgb(111, 30, 30);
+}
+
+a {
+	width: 350px;
+}
+
+.ulGallery {
+	list-style: none;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:10px;
+}
+
+ul li a img	{
+	border: 4px solid rgb(111, 30, 30);
+	transition: 2s ease;
+	opacity: 0.8;
+}
+
+ul li a img:hover {
+	border-radius: 50px;
+	transition: 1s ease;
+	opacity: 1;
+}
+
+.longPicture {
+	list-style: none;
+	margin-top: 40px;
+}

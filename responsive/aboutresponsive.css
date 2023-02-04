@@ -1,0 +1,64 @@
+/*Responsive so the screen resize when the frame change*/
+@media only screen and (min-width: 375px) and (min-height: 667px) and (-webkit-device-pixel-ratio : 2) {
+
+	a {
+		width: 315px;
+	}
+
+	div.accordion {
+		width: 350px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	#family {
+		font-size: 27px;
+	}
+
+	.titleMargin {
+		margin-top: 25px;
+	}
+
+	.ulGallery {
+		display: block;
+		padding: 0;
+	}
+
+	.longPicture {
+		padding: 0;
+	}
+	
+	#li1 {
+		margin-bottom: 40px;
+	}
+
+	#li2 {
+		margin-bottom: 40px;
+	}
+
+	#li3 {
+		margin-bottom: 40px;
+	}
+
+	#img1 {
+		width: 350px;
+	}
+
+	#img2 {
+		width: 350px;
+	}
+
+	#img3 {
+		width: 350px;
+	}
+
+	#img4 {
+		width: 350px;
+	}
+
+	#phoneLogo {
+		margin-left: 35px;
+	}
+}

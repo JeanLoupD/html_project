@@ -1,0 +1,42 @@
+/*Responsive so the screen resize when the frame change*/
+@media only screen and (min-width: 375px) and (min-height: 667px) and (-webkit-device-pixel-ratio : 2) {
+
+	h1 {
+		font-size: 40px;
+	}
+
+	#imageDiv1 {
+		width: 370px;
+		padding-left: 0;
+	}
+
+	#imageDiv2 {
+		width: 370px;
+		padding-left: 0;
+	}
+
+	#imageDiv3 {
+		width: 370px;
+		padding-left: 0;
+	}
+
+	#floorImg1 {
+		width: 370px;
+	}
+
+	#floorImg2 {
+		width: 370px;
+	}
+
+	#floorImg3 {
+		width: 370px;
+	}
+
+	.repairContainer {
+		width: 350px;
+	}
+
+	#phoneLogo {
+		margin-left: 35px;
+	}
+}

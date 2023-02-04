@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>AboutUs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/aboutstyle.css">
+  <link rel="stylesheet" href="responsive/aboutresponsive.css">
+  <link rel="stylesheet" href="lightbox/jquery.lightbox.css">
+  <script src="lightbox/jquery.lightbox.js"></script>
+</head>
+<body>
+	<!-- Navigation menu -->
+	<nav class="navbar navbar-expand-sm navBackground">
+		<div class="container">
+			<!-- Logo -->
+			<a href="#" class="navbar-brand"><img src="image/emco-logo.gif" alt="logo" class="navbar-brand logo ms-2" width="200" height="75"></a>
+			<ul class="navbar-nav">
+        		<li class="nav-item me-5">
+          			<a href="index.html" class="nav-link aFont textLine">Home</a>
+        		</li>
+         		<li class="nav-item me-5">
+          			<a href="product.html" class="nav-link aFont textLine">Product</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="rental.html" class="nav-link aFont textLine">Rentals</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="repair.html" class="nav-link aFont textLine">Repair</a>
+        		</li>
+         		<li class="nav-item me-5">
+          			<a href="about.html" class="nav-link aFont textLine">About</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="contact.html" class="nav-link aFont textLine">Contact</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="review.html" class="nav-link aFont textLine">Reviews</a>
+        		</li>
+      		</ul>
+		</div>
+	</nav>
+	<br>
+
+	<!-- Page title -->
+	<div class="container mb-3 titleMargin">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="bold">ABOUT US</h1>
+			</div>
+		</div>	
+	</div>
+	<!-- <hr> -->
+
+	<!-- Description texts -->
+	<div class="container mt-5">
+		<h2 class="mb-5 ms-3" id="family"><i>A family company since 1960</i></h2>
+		<div class="accordion">
+			<div class="card">
+				<div class="card-header navBackground">
+					<a href="#collapseOne" class="btn bg-warning bold" data-bs-toggle="collapse">Montreal Tool & Equipment Rentals</a>
+				</div>
+				<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+					<div class="card-body">
+						Emco Machinery is a family run company, the Millers were known for their original trade on Fairmount named "Miller Paint". Eventually the business branched out into tool rentals and flooring supplies in their current landmark location at 6659 Park Avenue. Emco's knowledgeable employees have been servicing clientele for years, helping them learn how to use tools for the 1st time or repairing the commercial equipment for our local contractors.
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header navBackground">
+					<a href="#collapseTwo" class="btn bg-warning bold" data-bs-toggle="collapse">Emco Machinery</a>
+				</div>
+				<div class="collapse" id="collapseTwo" data-bs-parent="#accordion">
+					<div class="card-body">
+						A part of Montreal's history for over 50 years. Based in the "Mile-End" of Montreal, Emco Machinery has been accommodating the commercial and residential sectors of Montreal with tool rentals and flooring supplies since the 1960s.
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header navBackground">
+					<a href="#collapseThree" class="btn bg-warning bold" data-bs-toggle="collapse">Flooring Equipment Rental & Flooring Supplies</a>
+				</div>
+				<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+					<div class="card-body">
+						3 generations of Millers have been seen at the front desk operating Emco Machinery and guiding its growth. In 2011 Emco expanded its operations by acquiring more space in which to warehouse their extensive collection of tools and flooring supplies. Over the years Emco has become the "goto" guys for flooring equipment rental and flooring equipment supplies. From sanders to sandpaper, varnish and stains we have it all.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Picture gallery title -->
+	<div class="container mt-5">
+		<div class="col-md-2 m-auto">
+			<h2><u>Picture Gallery</u></h2>
+		</div>
+	</div>
+
+	<div class="container mt-3">
+		<ul class="gallery ulGallery">
+  			<li id="li1">
+    			<a href="image/emco1.png">
+      				<img src="image/emco1.png" alt="emco outside" width="375" height="350" id="img1">
+    			</a>
+  			</li>
+  			<li id="li2">
+    			<a href="image/emco4.png">
+      				<img src="image/emco4.png" alt="emco outside" width="375" height="350" id="img2">
+    			</a>
+  			</li>
+   			<li id="li3">
+    			<a href="image/emco3.png">
+      				<img src="image/emco3.png" alt="emco logo" width="375" height="350" id="img3">
+    			</a>
+  			</li>
+		</ul>
+		<ul class="gallery longPicture">
+	 		<li>
+    			<a href="image/emco2.png">
+      				<img src="image/emco2.png" alt="emco outside" width="1225" height="350" id="img4">
+    			</a>
+  			</li>
+		</ul>	
+	</div>
+
+	<!-- footer-->
+	<nav class="navbar navbar-expand-sm navBackground mt-3">
+		<div class="container pt-3">
+			<div class="col-md-12">
+				<!-- Logo -->
+				<a href="https://www.facebook.com/EMCOMachineTool/" target="_blank" class="navbar-brand">
+					<img src="image/facebook1.png" alt="logo" width="30" height="30">
+				</a>
+				<a href="https://www.instagram.com/emcogroup/?hl=fr" target="_blank" class="navbar-brand">
+					<img src="image/instagram1.png" alt="logo" width="30" height="30">
+				</a>
+				<a href="https://ca.linkedin.com/in/emco-machinery-45722b204" target="_blank" class="navbar-brand">
+					<img src="image/linkedin1.png" alt="logo" width="30" height="30">
+				</a>
+				<h3 class="float-end">514-270-7101</h3>
+				<img src="image/phone.png" alt="phone logo" width="30" height="30" class="float-end me-3" id="phoneLogo">
+			</div>
+		</div>
+	</nav>
+
+	<script>
+		 $(function() {
+
+			$(function() {
+  				$('.gallery a').lightbox();
+			});
+
+		});
+	</script>
+
+</body>
+</html>

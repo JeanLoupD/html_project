@@ -1,0 +1,118 @@
+body {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+div {
+	min-height: 50px;
+}
+
+hr {
+	width: 900px;
+	margin: auto;
+}
+
+.navBackground {
+	background: rgb(111, 30, 30);
+}
+
+.aFont {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+.aFont:hover {
+	color: lightgray;
+}
+
+h5 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	color: white;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	color: white;
+}
+
+.textRight {
+	margin-right: 200px;
+}
+
+.textLine {
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  margin: auto;
+  width: 0%;
+}
+
+.textLine:hover{
+   border-bottom: 2px solid lightgray;
+   width: 100%;
+}
+
+.logo {
+	border-radius: 300px;
+}
+
+.carouselMargin {
+	margin-top: 25px;
+}
+
+.carouselDiv {
+	width: 250px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: rgba(111, 30, 30, .7);
+	margin: auto;
+	margin-bottom: 20px;
+	padding-bottom: 45px;
+}
+
+.jumbotronHeading {
+	margin-top: 100px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: rgb(111, 30, 30);
+}
+
+.date {
+	font-size: 25px;
+	font-style: italic;
+	color: rgb(111, 30, 30);
+}
+
+.greyRound {
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	background: lightgray;
+	margin-left: 205px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+.videoMargin {
+	margin: 0 auto;
+	display: block;
+}
+
+.icon {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.footerIcon {
+	width: 30px;
+}
+

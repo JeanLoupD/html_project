@@ -1,0 +1,116 @@
+body {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+div {
+	min-height: 50px;
+}
+
+hr {
+	width: 100%;
+}
+
+.navBackground {
+	background: rgb(111, 30, 30);
+}
+
+.aFont {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+.aFont:hover {
+	color: lightgray;
+}
+
+h4 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	margin-top: 5px;
+}
+
+h3 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+.textLine {
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  margin: auto;
+  width: 0%;
+}
+
+.textLine:hover{
+   border-bottom: 2px solid lightgray;
+   width: 100%;
+}
+
+.logo {
+	border-radius: 300px;
+}
+
+.titleMargin {
+	margin-top: 50px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: rgb(111, 30, 30);
+}
+
+.white {
+	color: white;
+}
+
+.starIcon {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-top: 15px;
+}
+
+.starIconModal {
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.profilPicture {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.profilInfo {
+	margin-left: 5px;
+}
+
+.dateReview {
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-size: 15px;
+	color: gray;
+}
+
+.dateReviewModal {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: gray;
+}
+
+.cardReview {
+	height: 360px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 25px;
+	color: rgb(111, 30, 30);
+}

@@ -1,0 +1,39 @@
+/*Responsive so the screen resize when the frame change*/
+@media only screen and (min-width: 375px) and (min-height: 667px) and (-webkit-device-pixel-ratio : 2) {
+
+	.titleMargin {
+		margin-left: 0;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	li {
+		margin-right: 15px;
+	}
+
+	span {
+		margin-right: 225px;
+	}
+
+	#add {
+		font-size: 15px;
+	}
+
+	#formDiv {
+		width: 375px;
+	}
+
+	iframe {
+		width: 375px;
+	}
+
+	#phoneLogo {
+		margin-left: 35px;
+	}
+}

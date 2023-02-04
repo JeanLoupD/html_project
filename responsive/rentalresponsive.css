@@ -1,0 +1,23 @@
+/*Responsive so the screen resize when the frame change*/
+@media only screen and (min-width: 375px) and (min-height: 667px) and (-webkit-device-pixel-ratio : 2) {
+
+	body {
+		margin-right: 25px;
+	}
+
+	nav {
+		width: 375px;
+	}
+
+	#ulTabList {
+		display: block;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	#phoneLogo {
+		margin-left: 35px;
+	}
+}

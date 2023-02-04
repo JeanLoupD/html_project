@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>Product</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/productstyle.css">
+  <link rel="stylesheet" href="responsive/productresponsive.css">
+  <!-- Jquery links ref -->
+  <script src="slip/hover/src/jquery.sliphover.min.js"></script>
+  <script src="slip/hover/src/jquery.sliphover.js"></script>
+  <!-- Second jquery links ref -->
+  <link rel="stylesheet" href="lightbox/jquery.lightbox.css">
+  <script src="lightbox/jquery.lightbox.js"></script>
+
+</head>
+<body>
+	<!-- Navigation menu -->
+	<nav class="navbar navbar-expand-sm navBackground">
+		<div class="container">
+			<!-- Logo -->
+			<a href="#" class="navbar-brand"><img src="image/emco-logo.gif" alt="logo" class="navbar-brand logo ms-2" width="200" height="75"></a>
+			<ul class="navbar-nav">
+        		<li class="nav-item me-5">
+          			<a href="index.html" class="nav-link aFont textLine">Home</a>
+        		</li>
+         		<li class="nav-item me-5">
+          			<a href="product.html" class="nav-link aFont textLine">Product</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="rental.html" class="nav-link aFont textLine">Rentals</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="repair.html" class="nav-link aFont textLine">Repair</a>
+        		</li>
+         		<li class="nav-item me-5">
+          			<a href="about.html" class="nav-link aFont textLine">About</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="contact.html" class="nav-link aFont textLine">Contact</a>
+        		</li>
+        		<li class="nav-item me-5">
+          			<a href="review.html" class="nav-link aFont textLine">Reviews</a>
+        		</li>
+      		</ul>
+		</div>
+	</nav>
+	<br>
+
+	<!-- Page title -->
+	<div class="container mb-3 titleMargin">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="bold m-auto">OUR PRODUCTS</h1>
+			</div>
+		</div>	
+	</div>
+	<!-- <hr> -->
+
+	<!-- Description texts -->
+	<div class="container mt-5">
+		<div class="container ms-1">
+			<h3 class="red bold"><i>Montreal Tool Rentals</i></h3>
+			<p>Are you a contractor or a DIY (do it yourselfer)? Then EMCO Machinery is a must know equipment rental outlet. We stock hundreds of construction contractor tools for all sorts of projects. From demolition tools to finishing tools interior or exterior renovations and even landscaping your backyard and painting the second floor aluminum siding on a house with a hydraulic scissor lift, we have it all!</p>
+		</div>
+	</div>
+	<hr>
+	<div class="container mt-3">
+		<div class="container ms-1">
+			<h3 class="red bold"><i>Montreal Supplies</i></h3>
+			<p>Emco Machinery is not only a flooring equipment tool rental and repair shop, we are also a full service distributor of abrasives, finishes, flooring equipment, accessories and service to the floor finishing trade. From A to Z we can sell you new equipment or rent and repair as the need arises. We open at 7:am sharp and are flexible for emergency deliveries depending on the daily schedule.</p>
+		</div>
+	</div>
+
+	<!-- Products first row  -->
+	<div class="container mt-5 mt-5" id="container1">
+		<div class="row gallery">
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Air compressor</h4>	
+					</div>
+					<img src="tool/aircompressor.jpg" alt="air compressor" height="300" id="photo1" data-caption="Multiple choice of air compressors<br>Location starting at only 25$ / day">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Gaz compressor</h4>	
+					</div>
+					<img src="tool/gazcompressor.jpg" alt="gaz compressor" height="300" id="photo2" data-caption="Also gaz compressor for less than 100$ / day">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Miter saw</h4>	
+					</div>
+					<img src="tool/scie.jpg" alt="miter saw" height="300" id="photo3" data-caption="Miter saw, circular saw, chain saw and more">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Products second row  -->
+	<div class="container mt-4" id="container2">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card" id="card1">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Moving tools</h4>	
+					</div>
+					<img src="tool/trolley.jpg" alt="trolley" height="300" id="photo4" data-caption="Multiple tools to help you move out">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Floor sander</h4>	
+					</div>
+					<img src="tool/sander.jpg" alt="sander" height="300" id="photo5" data-caption="Large choice of flooring tools<br> Starting at 30$ / day">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Nailgun</h4>	
+					</div>
+					<img src="tool/nailgun.jpg" alt="nailgun" height="300" id="photo6" data-caption="Brad nailer<br>Nail gun 16 gauges<br>Nail gun 18 gauges<br>Finish nailer<br>And more">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Products third row -->
+	<div class="container mt-4" id="container3">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Lawn mower</h4>	
+					</div>
+					<img src="tool/tondeuse.jpg" alt="lawn mower" height="300" id="photo7" data-caption="Lawn mower and other gardening tools to work in your backyard this summer">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Drills</h4>	
+					</div>
+					<img src="tool/drill.jpg" alt="Drills" height="300" id="photo8" data-caption="Smaller tools like drills, hand saw, bolt cutters etc">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-body bg-warning">
+						<h4 class="card-title bold">Jackhammer</h4>	
+					</div>
+					<img src="tool/marteau.jpg" alt="jackhammer" height="300" id="photo9" data-caption="Large selection of concrete tools">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Link to their catalog -->
+	<div class="container mt-5">
+		<a href="https://emcomachinerie.ad.calls.net/pdf/emco-pdf.pdf" target="_blank" class="float-end"><i>All our products here</i></a>
+	</div>
+
+	<!-- List of tools disponibility -->
+	<div class="container mt-5">
+		<div class="container mt-3 ms-1" id="listContainer">
+			<h3 class="red"><u>Montreal Tools Rentals Specialist</u></h3>
+			<ul class="gridList mb-3">
+				<li>Flooring Tools</li>
+				<li>Air Tools</li>
+				<li>Automobile Tools</li>
+				<li>Concrete Tools</li>
+				<li>Excavation Tools</li>
+				<li>Wood Tools</li>
+				<li>Heating Tools</li>
+				<li>Carpentry Tools</li>
+				<li>Moving Tools</li>
+				<li>Scaffolding</li>
+				<li>Hydraulic Lift</li>
+				<li>Generators</li>
+				<li>Pump</li>
+				<li>Ladder</li>
+				<li>Construction Debris Removal</li>
+				<li>Lighting Tools</li>
+				<li>Electrical Extension</li>
+				<li>Gardening Tools</li>
+				<li>Pressure Washer</li>
+				<li>Metalworking Tools</li>
+				<li>Saws Rental</li>
+				<li>Welding Tools</li>
+				<li>Carpet Tools</li>
+				<li>Tile Tools</li>
+				<li>Hoist & Jack</li>
+				<li>Painting Tools</li>
+				<li>Drills Rental</li>
+				<li>Plumbing Tools</li>
+				<li>Roofing Tools</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- footer-->
+	<nav class="navbar navbar-expand-sm navBackground mt-3">
+		<div class="container pt-3">
+			<div class="col-md-12">
+				<!-- Logo -->
+				<a href="https://www.facebook.com/EMCOMachineTool/" target="_blank" class="navbar-brand">
+					<img src="image/facebook1.png" alt="logo" width="30" height="30">
+				</a>
+				<a href="https://www.instagram.com/emcogroup/?hl=fr" target="_blank" class="navbar-brand">
+					<img src="image/instagram1.png" alt="logo" width="30" height="30">
+				</a>
+				<a href="https://ca.linkedin.com/in/emco-machinery-45722b204" target="_blank" class="navbar-brand">
+					<img src="image/linkedin1.png" alt="logo" width="30" height="30">
+				</a>
+				<h3 class="float-end">514-270-7101</h3>
+				<img src="image/phone.png" alt="phone logo" width="30" height="30" class="float-end me-3" id="phoneLogo">
+			</div>
+		</div>
+	</nav>
+
+	<!-- Plugins -->
+	<script>
+  	 $(function() {
+
+  	 	//plugins to hover over the pictures
+     	$('#container1').sliphover({
+         	caption: 'data-caption'
+     	});
+
+     	$('#container2').sliphover({
+         	caption: 'data-caption'
+     	});
+
+     	$('#container3').sliphover({
+         	caption: 'data-caption'
+     	});
+
+ 	});
+  </script>
+
+</body>
+</html>

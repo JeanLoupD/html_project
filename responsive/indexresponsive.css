@@ -1,0 +1,36 @@
+/*Responsive so the screen resize when the frame change*/
+@media only screen and (min-width: 375px) and (min-height: 667px) and (-webkit-device-pixel-ratio : 2) {
+
+	hr {
+		width: 100%;
+	}
+
+	iframe {
+		width: 355px;
+	}
+
+	.jumbotronHeading {
+		margin-top: 0;
+	}
+
+	p.textRight {
+		margin-right: 0;
+	}
+
+	.greyRound {
+		margin-left: 5px;
+	}
+
+	#dollardRound {
+		margin-bottom: 40px;
+	}
+
+	.carouselDiv {
+		margin-top: 50px;
+	}
+
+	#phoneLogo {
+		margin-left: 35px;
+	}
+
+}
